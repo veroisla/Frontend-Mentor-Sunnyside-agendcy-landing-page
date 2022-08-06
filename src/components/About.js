@@ -8,7 +8,7 @@ function About() {
   return (
     <section className="about">
       <article>
-        <div className="about__IntroImg"></div>
+        <div className="about__IntroImg about__ImgTransform"></div>
         <h2> Transform your brand</h2>
         <p>
           We are a full-service creative agency specializing in helping brands
@@ -18,6 +18,7 @@ function About() {
         <p>Learn more </p>
       </article>
       <article>
+        <div className="about__IntroImg about__ImgStandOut"></div>
         <h2> Stand out to the right audience</h2>
         <p>
           Using a collaborative formula of designers, researchers,
@@ -26,14 +27,14 @@ function About() {
         </p>
         <p> Learn more</p>
       </article>
-      <article>
+      <article className="about__ImgBackground about__ImgGraphicDesign">
         <h3> Graphic design</h3>
         <p>
           Great design makes you memorable. We deliver artwork that underscores
           your brand message and captures potential clients’ attention.
         </p>
       </article>
-      <article>
+      <article className="about__ImgBackground about__ImgPhotography">
         {' '}
         <h3>Photography</h3>
         <p>
