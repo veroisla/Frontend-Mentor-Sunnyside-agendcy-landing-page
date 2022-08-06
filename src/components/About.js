@@ -1,9 +1,14 @@
 import React from 'react';
 
+import Egg from '../images/mobile/image-transform.jpg';
+
+import '../styles/components/About.scss';
+
 function About() {
   return (
-    <>
+    <section className="about">
       <article>
+        <div className="about__IntroImg"></div>
         <h2> Transform your brand</h2>
         <p>
           We are a full-service creative agency specializing in helping brands
@@ -37,7 +42,7 @@ function About() {
           photos that improve your business image.
         </p>
       </article>
-    </>
+    </section>
   );
 }
 

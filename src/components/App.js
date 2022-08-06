@@ -7,13 +7,11 @@ import Footer from './Footer';
 function App() {
   return (
     <>
-      <header>
-        <Header />
-      </header>
+      <Header />
+
       <main>
-        <section>
-          <About />
-        </section>
+        <About />
+
         <section>
           <Testimonials />
         </section>

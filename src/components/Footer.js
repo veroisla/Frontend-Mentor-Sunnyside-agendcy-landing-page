@@ -1,10 +1,19 @@
 import React from 'react';
+import Logo from '../images/logo.svg';
 
 function footer() {
   return (
     <>
       {' '}
-      <nav>About Services Projects Contact</nav>
+      <img src={Logo} alt="" />
+      <nav>
+        <ul>
+          <li> About</li>
+          <li>Services</li>
+          <li>Projects</li>
+          <li> Contact</li>
+        </ul>
+      </nav>
       {/* ICONS */}{' '}
       <div class="attribution">
         Challenge by{' '}

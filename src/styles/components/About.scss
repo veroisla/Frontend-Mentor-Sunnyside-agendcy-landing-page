@@ -1,0 +1,12 @@
+@import "../Reset.scss";
+@import "../Vars.scss";
+
+.about {
+
+    &__IntroImg {
+        background-image: url(../../images/mobile/image-transform.jpg);
+        background-size: cover;
+        background-position: center;
+        height: 312px;;
+    }
+}
