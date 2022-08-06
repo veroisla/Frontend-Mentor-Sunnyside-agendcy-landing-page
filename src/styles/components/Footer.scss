@@ -1,0 +1,53 @@
+@import "../Reset.scss";
+@import "../Vars.scss";
+
+.footer {
+    background-color: $--color-ligth-green;
+    padding: 50px 35px 60px 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__Logo {
+        text-align: center;
+        color: $--color-footer-logo;
+        font-weight: 900;
+        font-family: $--font-fraunces;
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    &__Menu {
+        width: 100%;
+    }
+
+    &__Nav {
+       display: flex;
+       list-style-type: none;
+       justify-content: space-between;
+       margin-bottom: 60px;
+    }
+
+    &__Links { 
+        font-size: 18px;
+        font-family: $--font-barlow;
+        color: $--color-ligth-cyan;
+        &:hover {
+            color: $--color-white;
+           }
+    }
+
+    &__Icons {
+       display: flex;
+       justify-content: space-evenly;
+       width: 60%;
+       margin-bottom: 80px;
+
+       &:hover {
+        color: $--color-white;
+       }
+    }
+// TODO: CAMBIAR ICONOS DA PROBLEMA!! Hacer hover tambien!
+
+
+}

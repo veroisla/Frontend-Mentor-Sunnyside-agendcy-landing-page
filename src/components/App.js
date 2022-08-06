@@ -8,14 +8,11 @@ function App() {
   return (
     <>
       <Header />
-
       <main>
         <About />
         <Testimonials />
       </main>
-      <footer>
-        <Footer />
-      </footer>
+      <Footer />
     </>
   );
 }
