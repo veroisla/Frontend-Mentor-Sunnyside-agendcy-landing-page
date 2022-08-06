@@ -3,7 +3,9 @@
 
 .about {
 
-    //IMAGES
+    //  --------------- 1 AND 2 --> ARTICLES TRANSFORM BRAND AND STAND OUT-------------------
+
+    //IMAGES EGG AND GLASS
 
     &__IntroImg {
         background-size: cover;
@@ -19,7 +21,70 @@
         background-image: url(../../images/mobile/image-stand-out.jpg);
     }
 
-    //ARTICLE ABOUT GRAPHIC
+    //INFORMATION
+
+    &__Content {
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       margin: 60px 35px 60px 35px;
+      }
+
+    &__Title {
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 40px;
+        color: $--color-desaturated-blue;
+        margin-bottom: 30px;
+     }
+
+    &__About {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 30px;
+        font-weight: 400;
+        font-family: $--font-barlow;
+        color: $--color-medium-gray;
+     }
+
+    &__LearnMore {
+        font-size: 16px;
+        font-family: $--font-fraunces;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: $--color-desaturated-blue;
+
+     }
+
+     //UNDERLINE LEARN MORE
+
+      &__LearnMore::after {
+
+     content: "";
+     display: block;
+     bottom: 0.3em;
+     margin-left: -6%;
+     position: relative;
+     width: 112%;
+     height: 0.6rem;
+     border-radius: 0.3rem;
+     opacity: 0.25;    
+     }
+
+     &__UnderlineYellow::after {
+     background-color: $--color-yellow;
+     }
+
+     &__UnderlinePink::after {
+        background-color: $--color-red;
+     }
+
+
+        
+    //----------------- 3 AND 4 --> ARTICLES  GRAPHIC AND PHOTOGRAHY-------------------
+
+    //IMAGES ORANGE AND CIRUELAS
 
     &__ImgBackground {
     width: 100%;
@@ -36,4 +101,8 @@
     &__ImgPhotography {
         background-image: url(../../images/mobile/image-photography.jpg);
     }
+
+    //INFORMATION
+
+
 }
