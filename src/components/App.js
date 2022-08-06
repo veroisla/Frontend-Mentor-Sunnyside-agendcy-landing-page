@@ -11,10 +11,7 @@ function App() {
 
       <main>
         <About />
-
-        <section>
-          <Testimonials />
-        </section>
+        <Testimonials />
       </main>
       <footer>
         <Footer />

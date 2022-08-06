@@ -1,0 +1,51 @@
+@import "../Reset.scss";
+@import "../Vars.scss";
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 60px 30px 0px 30px;
+
+    &__title {
+        color: $--color-ligth-gray;
+        font-family: $--font-fraunces;
+        font-weight: 900;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        line-height: 24px;
+        margin-bottom: 70px;
+    }
+    
+    &__Img {
+        border-radius: 50%;
+        width: 30%;
+        margin-bottom: 40px;
+    }
+
+    &__About {
+        font-family: $--font-barlow;
+        color: $--color-dark-gray;
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    &__Name {
+        font-family: $--font-fraunces;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 32px;
+        color: $--color-desaturated-blue;
+        margin-bottom: 10px;
+    }
+
+    &__Job {
+        font-family: $--font-barlow;
+        font-weight: 700;
+        font-size: 14px;
+        color: $--color-ligth-gray;
+        margin-bottom: 70px;
+    }
+}

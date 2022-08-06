@@ -1,40 +1,50 @@
 import React from 'react';
+import Emily from '../images/people/image-emily.jpg';
+import Thomas from '../images/people/image-thomas.jpg';
+import Jennie from '../images/people/image-jennie.jpg';
+import '../styles/components/Testimonials.scss';
 
 function Testimonials() {
   return (
-    <>
-      <h4>Client testimonials</h4>
-      <article>
-        {' '}
-        {/* img emily */}
-        <p>
+    <section className="testimonials">
+      {' '}
+      <h4 className="testimonials__Title">client testimonials</h4>
+      <article className="testimonials__Article">
+        <img
+          src={Emily}
+          alt="Marketing Director"
+          className="testimonials__Img"
+        />
+        <p className="testimonials__About">
           We put our trust in Sunnyside and they delivered, making sure our
           needs were met and deadlines were always hit.{' '}
         </p>
-        <p> Emily R.</p>
-        <p> Marketing Director</p>
+        <p className="testimonials__Name"> Emily R.</p>
+        <p className="testimonials__Job"> Marketing Director</p>
       </article>
-      <article>
-        {/* img Thomas */}
-        <p>
+      <article className="testimonials__Article">
+        <img
+          src={Thomas}
+          alt="Chief Operating Officer"
+          className="testimonials__Img"
+        />
+        <p className="testimonials__About">
           Sunnyside’s enthusiasm coupled with their keen interest in our brand’s
           success made it a satisfying and enjoyable experience.{' '}
         </p>
-        <p>Thomas S. </p>
-        <p>Chief Operating Officer</p>
+        <p className="testimonials__Name">Thomas S. </p>
+        <p className="testimonials__Job">Chief Operating Officer</p>
       </article>
-      <article>
-        {' '}
-        {/* <IMG>JENNIE</IMG> */}
-        <p>
-          {' '}
+      <article className="testimonials__Article">
+        <img src={Jennie} alt="Business Owner" className="testimonials__Img" />
+        <p className="testimonials__About">
           Incredible end result! Our sales increased over 400% when we worked
           with Sunnyside. Highly recommended!
         </p>
-        <p> Jennie F. </p>
-        <p> Business Owner </p>
+        <p className="testimonials__Name"> Jennie F. </p>
+        <p className="testimonials__Job"> Business Owner </p>
       </article>
-    </>
+    </section>
   );
 }
 
