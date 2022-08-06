@@ -1,7 +1,5 @@
 import React from 'react';
 
-import Egg from '../images/mobile/image-transform.jpg';
-
 import '../styles/components/About.scss';
 
 function About() {
@@ -34,18 +32,23 @@ function About() {
         {/* ----------OTHER TYPE OF ARTICLE----------- */}
       </article>
       <article className="about__ImgBackground about__ImgGraphicDesign">
-        <h3> Graphic design</h3>
-        <p>
-          Great design makes you memorable. We deliver artwork that underscores
-          your brand message and captures potential clients’ attention.
-        </p>
+        <div className="about__ContentImg about__Graphic">
+          <h3 className="about__TitleImg"> Graphic Design</h3>
+          <p className="about__AboutImg">
+            Great design makes you memorable. We deliver artwork that
+            underscores your brand message and captures potential clients’
+            attention.
+          </p>
+        </div>
       </article>
-      <article className="about__ImgBackground about__ImgPhotography">
-        <h3>Photography</h3>
-        <p>
-          Increase your credibility by getting the most stunning, high-quality
-          photos that improve your business image.
-        </p>
+      <article className="about__ImgBackground about__ImgPhotography about__Photography">
+        <div className="about__ContentImg">
+          <h3 className="about__TitleImg">Photography</h3>
+          <p className="about__AboutImg">
+            Increase your credibility by getting the most stunning, high-quality
+            photos that improve your business image.
+          </p>
+        </div>
       </article>
     </section>
   );
