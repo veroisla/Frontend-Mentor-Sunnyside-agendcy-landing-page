@@ -4,10 +4,12 @@ import About from './About';
 import Testimonials from './Testimonials';
 import Footer from './Footer';
 import MixImages from './MixImages';
+// import NavMobile from './NavMobile';
 
 function App() {
   return (
     <>
+      {/* <NavMobile /> */}
       <Header />
       <main>
         <About />

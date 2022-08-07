@@ -8,12 +8,13 @@
     background-size: cover;
     background-position: bottom center;
     align-items: center;
+    padding: 30px;
 
     &__LogoAndNav {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 25px;
+        
     }
 
     &__Hamburguer {
@@ -41,6 +42,58 @@
         color: $--color-white;
         font-size: 100px;
     }
-
-
 }
+
+//NAV MOBILE
+
+.nav {
+    &__menu--open {
+    position: relative;
+    align-items: flex-end;
+    padding: 30px 15px 0px 15px;
+    }
+
+    &__menu--notOpen {
+        display: none;
+    }
+
+ &__container {
+   position: absolute;
+   width: 100%;
+   right: 0;
+   margin-top: 10px;
+ }
+
+ &__list {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: $--color-white;
+    height: 330px;
+ }
+
+ &__items {
+     font-family: $--font-barlow;
+     font-size: 18px;
+     color: $--color-medium-gray;
+
+     &--contact {
+        font-family: $--font-fraunces;
+        font-size: 18px;
+        font-weight: 900;
+        text-transform: uppercase;   
+        line-height: 1;
+        color: $--color-desaturated-blue;
+        background-color: $--color-yellow;
+        border: 0;
+        padding: 20px 30px 20px 30px; 
+        border-radius: 40px;
+     }
+ }
+}
+
+
+
+
+
