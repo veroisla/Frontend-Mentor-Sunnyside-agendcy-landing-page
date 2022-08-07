@@ -1,0 +1,19 @@
+@import "../Reset.scss";
+@import "../Vars.scss";
+
+.navDesktop {
+    display: none;
+
+    @media all and (min-width:768px) {
+
+    & {
+    display: flex;
+     }
+
+    &__list {
+         display: flex;
+         width: 400px;
+         justify-content: space-between;
+    }
+    }
+}

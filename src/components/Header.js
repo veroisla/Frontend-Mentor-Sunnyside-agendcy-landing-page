@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
+import '../styles/components/Header.scss';
 import Logo from '../images/logo.svg';
 import Hamburguer from '../images/icons/icon-hamburger.svg';
 import Arrow from '../images/icons/icon-arrow-down.svg';
-
-import '../styles/components/Header.scss';
+import NavDesktop from './NavDesktop';
 
 function Header() {
   const [sidebar, setSidebar] = useState(false);
@@ -14,7 +14,7 @@ function Header() {
     <header className="header">
       <div className="header__LogoAndNav">
         <img src={Logo} alt="Logo Web" className="header__Logo" />
-
+        <NavDesktop />
         <img
           src={Hamburguer}
           alt="Nav Menu Header"
