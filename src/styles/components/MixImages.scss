@@ -1,2 +1,11 @@
 @import "../Reset.scss";
 @import "../Vars.scss";
+
+.mixImages {
+    display: flex;
+    flex-wrap: wrap;
+    &__Img {
+        width: 50%;
+    }
+
+}

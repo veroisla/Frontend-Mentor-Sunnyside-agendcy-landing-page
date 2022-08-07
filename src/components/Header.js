@@ -26,7 +26,9 @@ function Header() {
       </div>
       <div className="header__TitleAndArrow">
         <h1 className="header__Creatives">we are creatives</h1>
-        <img src={Arrow} alt="Scroll Down for more Info" />
+        <a href="#footer">
+          <img src={Arrow} alt="Scroll Down for more Info" />
+        </a>
       </div>
     </header>
   );

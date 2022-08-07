@@ -4,11 +4,15 @@ import Facebook from '../images/icons/icon-facebook.svg';
 import Instagram from '../images/icons/icon-instagram.svg';
 import Twitter from '../images/icons/icon-twitter.svg';
 import Pinterest from '../images/icons/icon-pinterest.svg';
+import { AiFillFacebook } from 'react-icons/ai';
+import { AiOutlineInstagram } from 'react-icons/ai';
+import { AiOutlineTwitter } from 'react-icons/ai';
+import { BsPinterest } from 'react-icons/bs';
 
 function footer() {
   return (
     <>
-      <footer className="footer">
+      <footer className="footer" id="footer">
         <p className="footer__Logo">sunnyside</p>
         <nav className="footer__Menu">
           <ul className="footer__Nav">
@@ -19,13 +23,13 @@ function footer() {
         </nav>
         {/* ICONS */}
         <div className="footer__Icons">
-          <img src={Facebook} alt="Facebook" className="footer__IconsImg" />
-          <img src={Instagram} alt="Instagram" className="footer__IconsImg" />
-          <img src={Twitter} alt="Twitter" className="footer__IconsImg" />
-          <img src={Pinterest} alt="Pinterest" className="footer__IconsImg" />
+          <AiFillFacebook className="footer__IconsImg" />
+          <AiOutlineInstagram className="footer__IconsImg" />
+          <AiOutlineTwitter className="footer__IconsImg" />
+          <BsPinterest className="footer__IconsImg" />
         </div>
 
-        {/* <div class="footer__Attribution">
+        <div class="footer__Attribution">
           Challenge by{' '}
           <a
             href="https://www.frontendmentor.io?ref=challenge"
@@ -34,8 +38,16 @@ function footer() {
           >
             Frontend Mentor
           </a>
-          . Coded by <a href="#">Verónica Isla </a>.
-        </div> */}
+          . Coded by{' '}
+          <a
+            href="https://www.linkedin.com/in/veronica-isla-garcia-de-leaniz/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Verónica Isla{' '}
+          </a>
+          .
+        </div>
       </footer>
     </>
   );

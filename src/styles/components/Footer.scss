@@ -14,24 +14,25 @@
         font-weight: 900;
         font-family: $--font-fraunces;
         font-size: 32px;
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
 
     &__Menu {
-        width: 100%;
+        width: 80%;
     }
 
     &__Nav {
        display: flex;
        list-style-type: none;
        justify-content: space-between;
-       margin-bottom: 60px;
+       margin-bottom: 70px;
     }
 
     &__Links { 
         font-size: 18px;
         font-family: $--font-barlow;
         color: $--color-ligth-cyan;
+        cursor: pointer;
         &:hover {
             color: $--color-white;
            }
@@ -42,12 +43,18 @@
        justify-content: space-evenly;
        width: 60%;
        margin-bottom: 80px;
+    }
 
-       &:hover {
+    &__IconsImg {
+       font-size: 25px;
+        color: $--color-footer-logo;
+
+        &:hover {
         color: $--color-white;
        }
     }
-// TODO: CAMBIAR ICONOS DA PROBLEMA!! Hacer hover tambien!
 
-
+    &__Attribution a {
+        color: $--color-footer-logo;
+    }
 }
