@@ -57,4 +57,16 @@
     &__Attribution a {
         color: $--color-footer-logo;
     }
+
+    @media all and (min-width:768px) {
+        & {
+            &__Menu {
+                width: 20%;
+            }
+
+            &__Icons {
+                width: 15%;
+            }
+        }
+    }
 }

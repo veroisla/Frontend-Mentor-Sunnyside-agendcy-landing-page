@@ -1,6 +1,8 @@
 @import "../Reset.scss";
 @import "../Vars.scss";
 
+// TODO:Revisar tamañaos letras y fuente y weitgh
+
 .testimonials {
     display: flex;
     flex-direction: column;
@@ -8,7 +10,7 @@
     text-align: center;
     margin: 60px 30px 0px 30px;
 
-    &__title {
+    &__Title {
         color: $--color-ligth-gray;
         font-family: $--font-fraunces;
         font-weight: 900;
@@ -39,6 +41,7 @@
         line-height: 32px;
         color: $--color-desaturated-blue;
         margin-bottom: 10px;
+        font-weight: bolder;
     }
 
     &__Job {
@@ -47,5 +50,37 @@
         font-size: 14px;
         color: $--color-ligth-gray;
         margin-bottom: 70px;
+    }
+
+    @media all and (min-width:768px) {
+        & {
+          margin: 60px 80px 60px 80px;
+
+          &__desktop {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+          }
+          
+          &__Title {
+            padding: 30px;
+            font-weight: 900;
+        //   TODO: cambiar font-weight, no lo consigo?
+          }
+
+          &__Article {
+            width: 360px;
+          }
+
+          &__Img {
+            width: 20%;
+          }
+
+          &__About {
+            font-weight: 400;
+            color: $--color-medium-gray;
+          }
+
+        }
     }
 }

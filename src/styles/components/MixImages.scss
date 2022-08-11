@@ -4,8 +4,33 @@
 .mixImages {
     display: flex;
     flex-wrap: wrap;
+
     &__Img {
         width: 50%;
     }
+    @media all and (min-width:768px) {
+        display:none;
+    }
+    
+}
+
+.mixImagesDesktop {
+    display: none;
+
+    @media all and (min-width:768px){
+
+        & {
+           display: flex;
+           flex-wrap: nowrap; 
+
+           &__Img {
+            width: 25%;
+           }
+        }
+        
+    }
+
+
+
 
 }
