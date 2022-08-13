@@ -12,13 +12,20 @@
 
     &__list {
          display: flex;
-         width: 400px;
+         width: 450px;
          justify-content: space-between;
          align-items: center;
          
          a {
             color: $--color-white;
          }
+    }
+
+    &__items {
+        font-family: $--font-barlow;
+        font-weight: 400;
+        line-height: 31px;
+        font-size: 18px;
     }
 
     &__items--contact {
@@ -29,9 +36,9 @@
         border-radius: 40px;
         text-transform: uppercase;
         color: $--color-desaturated-blue;
-        font-weight: 900;
-        font-family: $--font-barlow;
-        font-size: 14px;
+        font-weight: 700;
+        font-family: $--font-fraunces;
+        font-size: 16px;
 
         &:hover {
             background-color: $--color-ligth-blue;

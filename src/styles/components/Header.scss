@@ -95,11 +95,21 @@
 @media all and (min-width:768px) {
 
     .header {
-        background-image: url(../../images/desktop/image-header.jpg);
+    background-image: url(../../images/desktop/image-header.jpg);
     // TODO:HACER MAS PEQUEÑA LA IMAGEN!!!!
-       
-        &__Hamburguer {
+    height: 90vh;
+
+    &__LogoAndNav {
+       margin:  0px 40px 0px 40px;
+    }
+
+     &__Hamburguer {
             display: none;
+        }
+    
+        &__Creatives {
+            font-weight: 900;
+            font-size: 54px;
         }
 
     }

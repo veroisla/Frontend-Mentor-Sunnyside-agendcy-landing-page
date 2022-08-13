@@ -7,6 +7,8 @@ function About() {
     <section className="about">
       <article className="about__ArticleWhite">
         <div className="about__IntroImg about__ImgTransform"></div>
+        {/* //--Version Desktop */}
+        <div className="about__IntroImgDesktop about__ImgTransformDesktop"></div>
         <div className="about__Content">
           <h2 className="about__Title">Transform your brand</h2>
           <p className="about__About">
@@ -19,6 +21,8 @@ function About() {
       </article>
       <article className="about__ArticleWhite">
         <div className="about__IntroImg about__ImgStandOut"></div>
+        {/* //--Version Desktop */}
+        <div className="about__IntroImgDesktop about__ImgStandOutDesktop"></div>
         <div className="about__Content">
           <h2 className="about__Title"> Stand out to the right audience</h2>
           <p className="about__About">
@@ -28,7 +32,6 @@ function About() {
           </p>
           <p className="about__LearnMore about__UnderlinePink">learn more</p>
         </div>
-
         {/* ----------OTHER TYPE OF ARTICLE----------- */}
       </article>
       <article className="about__ImgBackground about__ImgGraphicDesign">
