@@ -18,6 +18,10 @@
          
          a {
             color: $--color-white;
+
+            &:hover {
+                color: $--color-blue;
+            }
          }
     }
 
@@ -32,7 +36,7 @@
         border: none;
         background-color: $--color-white;
         border: 0;
-        padding: 20px 30px 20px 30px; 
+        padding: 15px 20px 15px 20px;
         border-radius: 40px;
         text-transform: uppercase;
         color: $--color-desaturated-blue;
@@ -41,7 +45,7 @@
         font-size: 16px;
 
         &:hover {
-            background-color: $--color-ligth-blue;
+            background-color: $--color-blue;
             color: $--color-white;
         }
     }
