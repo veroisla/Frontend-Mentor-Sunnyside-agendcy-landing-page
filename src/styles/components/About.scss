@@ -115,7 +115,7 @@
         background-image: url(../../images/mobile/image-photography.jpg);
     }
 
-    //INFORMATION
+    //INFORMATION GRAPHIC DESIGN AND PRHOTOGRAPHY 
 
     &__ContentImg {
         display: flex;
@@ -140,6 +140,7 @@
         font-size: 28px;
         margin-bottom: 40px;
     }
+
     &__AboutImg {
         font-family: $--font-barlow;
         font-size: 16px;
@@ -147,4 +148,45 @@
         text-align: center;
         font-weight: 400;
     }
+
+    @media all and (min-width: 768px) {
+
+        &__Articlewhite {
+            display: grid;
+            grid-auto-flow: column;
+            grid-auto-columns: 1fr;
+        }
+
+        &__Content {
+            margin: 0 150px 0 200px;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        &__ImgTransform {
+            background-image: url(../../images/desktop/image-transform.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 550px;
+            order: 1;
+        }
+
+        &__ImgStandOut {
+            background-image: url(../../images/desktop/image-stand-out.jpg);
+            height: 550px;
+        }
+
+        &__Title {
+            width: 450px;
+            text-align: start;
+            font-size: 40px;
+            line-height: 50px;
+        }
+
+        &__About {
+            text-align: start;
+            width: 450px;
+        }
+    }
+
     }

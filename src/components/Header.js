@@ -51,7 +51,7 @@ function Header() {
       <div className="header__TitleAndArrow">
         <h1 className="header__Creatives">we are creatives</h1>
         <a href="#footer">
-          <img src={Arrow} alt="Scroll Down for more Info" />
+          <img src={Arrow} alt="Arrow down" title="To the bottom!" />
         </a>
       </div>
     </header>
