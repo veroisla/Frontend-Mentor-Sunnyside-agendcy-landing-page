@@ -37,25 +37,27 @@ function About() {
         </div>
         {/* ----------OTHER TYPE OF ARTICLE----------- */}
       </article>
-      <article className="about__ImgBackground about__ImgGraphicDesign">
-        <div className="about__ContentImg about__Graphic">
-          <h3 className="about__TitleImg"> Graphic Design</h3>
-          <p className="about__AboutImg">
-            Great design makes you memorable. We deliver artwork that
-            underscores your brand message and captures potential clients’
-            attention.
-          </p>
-        </div>
-      </article>
-      <article className="about__ImgBackground about__ImgPhotography about__Photography">
-        <div className="about__ContentImg">
-          <h3 className="about__TitleImg">Photography</h3>
-          <p className="about__AboutImg">
-            Increase your credibility by getting the most stunning, high-quality
-            photos that improve your business image.
-          </p>
-        </div>
-      </article>
+      <div className="about__ArticleGraphicPhoto">
+        <article className="about__ImgBackground about__ImgGraphicDesign">
+          <div className="about__ContentImg about__Graphic">
+            <h3 className="about__TitleImg"> Graphic Design</h3>
+            <p className="about__AboutImg">
+              Great design makes you memorable. We deliver artwork that
+              underscores your brand message and captures potential clients’
+              attention.
+            </p>
+          </div>
+        </article>
+        <article className="about__ImgBackground about__ImgPhotography ">
+          <div className="about__ContentImg about__Photography">
+            <h3 className="about__TitleImg">Photography</h3>
+            <p className="about__AboutImg">
+              Increase your credibility by getting the most stunning,
+              high-quality photos that improve your business image.
+            </p>
+          </div>
+        </article>
+      </div>
     </section>
   );
 }
