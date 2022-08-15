@@ -55,30 +55,44 @@
         text-transform: uppercase;
         color: $--color-desaturated-blue;
         letter-spacing: 1px;
-
+        border: 0;
+        background-color: transparent;
      }
 
      //UNDERLINE LEARN MORE
-
       &__LearnMore::after {
      content: "";
      display: block;
-     bottom: 0.3em;
+     bottom: 0.5em;
      margin-left: -6%;
      position: relative;
      width: 112%;
      height: 0.6rem;
      border-radius: 0.3rem;
-     opacity: 0.25;    
+     opacity: 0.3;    
+    background: transparent;  
+                       
      }
 // TODO:VISITED CHANGE COLOR UNDERLINE
 
      &__UnderlineYellow::after{
      background-color: $--color-yellow;
-     }
+     } 
+
+     &__UnderlineYellow:hover::after {
+        background-color: $--color-yellow;
+        opacity: 0.8;
+        z-index: -4;
+     } 
      
      &__UnderlinePink::after {
         background-color: $--color-red;
+     }
+
+     &__UnderlinePink:hover::after {
+        background-color: $--color-red;
+        opacity: 0.8;
+        z-index: -4;
      }
         
     //----------------- 3 AND 4 --> ARTICLES  GRAPHIC AND PHOTOGRAHY-------------------

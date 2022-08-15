@@ -16,7 +16,9 @@ function About() {
             grow fast. Engage your clients through compelling visuals that do
             most of the marketing for you.
           </p>
-          <p className="about__LearnMore about__UnderlineYellow">learn more</p>
+          <button className="about__LearnMore about__UnderlineYellow button">
+            learn more
+          </button>
         </div>
       </article>
       <article className="about__ArticleWhite">
@@ -30,7 +32,10 @@ function About() {
             photographers, videographers, and copywriters, we’ll build and
             extend your brand in digital places.
           </p>
-          <p className="about__LearnMore about__UnderlinePink">learn more</p>
+          <button className="about__LearnMore about__UnderlinePink">
+            {' '}
+            learn more
+          </button>
         </div>
         {/* ----------OTHER TYPE OF ARTICLE----------- */}
       </article>
